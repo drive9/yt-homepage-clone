@@ -64,6 +64,8 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+  
+  pointer-events: none;
 }
 
 .video-author,
