@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>YouTube.com Clone</title>
+
+    <link rel="stylesheet" href="style/video.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+
+  
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <div class="left-section">
+        <img src="yt-icons/hamburger-menu.svg" class="hamburger-menu">
+        <img src="yt-icons/youtube-logo.svg" class="yt-logo">
+      </div>
+
+      <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img src="yt-icons/search.svg" class="search-icon">
+          <div class="tool-tip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img src="yt-icons/voice-search-icon.svg" class="voice-search-icon">
+          <div class="tool-tip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+
+        <div class="upload-icon-box">
+          <img src="yt-icons/upload.svg" class="upload-icon">
+          <div class="tool-tip">Create</div>
+        </div>
+
+        <div class="yt-apps-icon-box">
+          <img src="yt-icons/youtube-apps.svg" class="apps-icon">
+          <div class="tool-tip">YouTube apps</div>
+        </div>
+        
+        <div class="notification-icon-box">
+          <img src="yt-icons/notifications.svg" class="notification-icon">
+          <div class="notifications-count">3</div>
+          <div class="tool-tip">Notifications</div>
+        </div>
+        <img src="channel-icons/profile-pic.jpg" class="current-user-pic">
+
+      </div>
+
+    </header>
+
+    <nav class="sidebar">
+
+      <div class="sidebar-icon">
+        <img src="yt-icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="yt-icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="yt-icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="yt-icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="yt-icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-icon">
+        <a href="https://github.com/drive9"><img src="yt-icons/library.svg"></a>
+        <div>Library</div>
+      </div>
+
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+
+        <!--1-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bci_jupNksY"><img class="thumbnail" src="thumbnails/thumbnail-1.webp"></a>
+            <div class="video-time">9:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCYYUGTG__Kc_4RBhv7FEolg"><img class="profile-pic" src="channel-icons/channel-icon-1.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=bci_jupNksY">Voyager 2 Sent Back Its Final Images From Space. What Did It...</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCYYUGTG__Kc_4RBhv7FEolg">Voyager &#10003;</a>
+              </p>
+      
+              <p class="video-stats">
+                1.1M views &#183; 2 months ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+        
+        <!--2-->
+        <div class="video-preview">
+          
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=dwZ40ekgHpg"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+            <div class="video-time">13:58</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCdTDC0hc3EPLOwwiPp6i6xw"><img class="profile-pic" src="channel-icons/channel-icon-2.jpg"></a>
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=dwZ40ekgHpg">This young boy only sings old songs</a>
+              </p>
+    
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCdTDC0hc3EPLOwwiPp6i6xw">guitaro5000 &#10003;</a>
+              </p>
+    
+              <p class="video-stats">
+                2.4M views &#183; 4 weeks ago
+              </p>
+          
+            </div>
+          </div>
+    
+        </div>
+        
+        <!--3-->
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=TN1TeC2YQJ0"><img class="thumbnail" src="thumbnails/thumbnail-3.png"></a>
+            <div class="video-time">2:12:32</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCq22aK0t0mrOEq676Be4ezw"><img class="profile-pic" src="channel-icons/channel-icon-3.png"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=TN1TeC2YQJ0">Tomorrow | 2 Hours Beautiful Ambient Music</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCq22aK0t0mrOEq676Be4ezw">BLUME &#10003;</a>
+              </p>
+      
+              <p class="video-stats">
+                556K views &#183; 6 months ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+    
+        <!--4-->    
+        <div class="video-preview">
+          
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yMAw6WEDM9A"><img class="thumbnail" src="thumbnails/thumbnail-4.png"></a>
+            <div class="video-time">3:40</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ"><img class="profile-pic" src="channel-icons/channel-icon-4.png"></a>
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=yMAw6WEDM9A">Kidnap - Grow (feat. Leo Stannard)</a>
+              </p>
+    
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ">MrSuicideSheep &#10003;</a>
+              </p>
+    
+              <p class="video-stats">
+                507K views &#183; 2 years ago
+              </p>
+          
+            </div>
+          </div>
+    
+        </div>
+        
+        <!--5-->
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=vebNxWGotC8"><img class="thumbnail" src="thumbnails/thumbnail-5.png"></a>
+            <div class="video-time">8:33</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCfdNM3NAhaBOXCafH7krzrA"><img class="profile-pic" src="channel-icons/channel-icon-5.png"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=vebNxWGotC8">FBI vs CIA - How Do They Compare?</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCfdNM3NAhaBOXCafH7krzrA">The Infographics Show &#10003;</a>
+              </p>
+      
+              <p class="video-stats">
+                8.3M views &#183; 4 years ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--6-->
+        <div class="video-preview">
+          
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=_w6Uxclog7E"><img class="thumbnail" src="thumbnails/thumbnail-6.png"></a>
+            <div class="video-time">14:19</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UC2A1530b9PvQW9rJ8DWk9Cg"><img class="profile-pic" src="channel-icons/channel-icon-6.png"></a>
+            </div>
+    
+            <div class="video-info">
+    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=_w6Uxclog7E">HOGWARTS LEGACY New Gameplay Demo 14 Minutes 4K</a>
+              </p>
+    
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UC2A1530b9PvQW9rJ8DWk9Cg">WildGamerSK</a> 
+              </p>
+    
+              <p class="video-stats">
+                1.9M views &#183; 1 month ago
+              </p>
+          
+            </div>
+          </div>
+    
+        </div>
+
+        <!--7-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=VmekmH0QJMs"><img class="thumbnail" src="thumbnails/thumbnail-7.webp"></a>
+            <div class="video-time">19:17</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCsDxB-CSMQ0Vu_hTag7-2UQ"><img class="profile-pic" src="channel-icons/channel-icon-7.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=VmekmH0QJMs">Blender's Animation Tools - Amazing for 2D Artists</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCsDxB-CSMQ0Vu_hTag7-2UQ">Marco Bucci</a>
+              </p>
+      
+              <p class="video-stats">
+                429K views &#183; 1 month ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--8-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=7AENLRIRjOo"><img class="thumbnail" src="thumbnails/thumbnail-8.webp"></a>
+            <div class="video-time">2:42</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCnTB8uNxND40iwvPiyzpnWw"><img class="profile-pic" src="channel-icons/channel-icon-8.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=7AENLRIRjOo">Anya Forger is a singer</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCnTB8uNxND40iwvPiyzpnWw">heiakim &#9834;</a>
+              </p>
+      
+              <p class="video-stats">
+                5.3K views &#183; 1 hour ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--9-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=djX-RlrpMqA"><img class="thumbnail" src="thumbnails/thumbnail-9.webp"></a>
+            <div class="video-time">1:40:01</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCKxknVfRWj3YKZuE_qiWZ4Q"><img class="profile-pic" src="channel-icons/channel-icon-9.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=djX-RlrpMqA">[playlist] This is "The Weeknd"</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCKxknVfRWj3YKZuE_qiWZ4Q">리플레이LEEPLAY &#10003;</a>
+              </p>
+      
+              <p class="video-stats">
+                2.9M views &#183; 1 year ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--10-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=SzJ46YA_RaA"><img class="thumbnail" src="thumbnails/thumbnail-10.webp"></a>
+            <div class="video-time">10:58</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UCxqAWLTk1CmBvZFPzeZMd9A"><img class="profile-pic" src="channel-icons/channel-icon-10.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=SzJ46YA_RaA">Map of Computer Science</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UCxqAWLTk1CmBvZFPzeZMd9A">DoS - Domain of Science &#10003;</a>
+              </p>
+      
+              <p class="video-stats">
+                4.5M views &#183; 4 years ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--11-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ZzwWWut_ibU"><img class="thumbnail" src="thumbnails/thumbnail-11.webp"></a>
+            <div class="video-time">9:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UC8zOy50mo4UzGISwqMrRJEQ"><img class="profile-pic" src="channel-icons/channel-icon-11.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=ZzwWWut_ibU">Nesting "If Statements" Is Bad. Do This Instead.</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UC8zOy50mo4UzGISwqMrRJEQ">Flutter Mapp</a> 
+              </p>
+      
+              <p class="video-stats">
+                167K views &#183; 4 days ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+
+        <!--12-->
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=HalY-slFyw4"><img class="thumbnail" src="thumbnails/thumbnail-12.webp"></a>
+            <div class="video-time">12:32</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-icon">
+              <a href="https://www.youtube.com/channel/UC_9W6Z5Y3lDpLk47Y_y5ITQ"><img class="profile-pic" src="channel-icons/channel-icon-12.jpg"></a>
+            </div>
+              
+            <div class="video-info">
+                    
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=HalY-slFyw4">Sentinels vs Akrew - HIGHLIGHTS | VALORANT Champions Tour 2022...</a>
+              </p>
+      
+              <p class="video-author">
+                <a href="https://www.youtube.com/channel/UC_9W6Z5Y3lDpLk47Y_y5ITQ">Daily Valorant</a>
+              </p>
+      
+              <p class="video-stats">
+                128K views &#183; 11 hours ago
+              </p>
+    
+            </div>
+          </div>
+          
+        </div>
+    
+      </section>
+    </main>
+    
+  </body>
+
+</html>
